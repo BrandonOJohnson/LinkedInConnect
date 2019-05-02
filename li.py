@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 import urllib.parse
 import time
 
-
 class LinkedIn:
 
     def __init__(self, username, password):
@@ -59,8 +58,8 @@ class LinkedIn:
 
 if __name__ == "__main__":
 
-    username = "bjohnson1@rollins.edu"
-    password = "johnson0416"
+    username = "USERNAME"
+    password = "PASSWORD"
 
     ig = LinkedIn(username, password)
     ig.login()
